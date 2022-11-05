@@ -1,0 +1,156 @@
+body{
+  position:relative;
+  display: block;
+  font-family: "Montserrat";
+
+}
+
+#title{
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+color: white;
+padding-bottom: 4rem;
+
+  display: block;
+  background-color: #ff4c68;
+}
+.container-fluid
+{
+  padding-top:6%;
+  padding-left:15%;
+  padding-right: 15%;
+}
+.fir{
+  display: block;
+  position: relative;
+  margin-top: 50px;
+}
+
+.row1{
+  padding-top: 3rem;
+}
+
+
+/* Nagivation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  size: 20px;
+  padding-bottom: 8%;
+
+  font-weight: bold;
+}
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.nav-link{
+
+  font-family: "Montserrat-light";
+}
+
+/* Title Image */
+.rotate_image{
+  width: 20%;
+  transform: rotate(25deg);
+  position:absolute;
+
+  /* -webkit-transform:rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg); */
+}
+
+
+/* features sections */
+
+#features{
+  padding:7% 15%;
+  background-color: white;
+  position:relative;
+  z-index:3;
+
+}
+.feature-box{
+  text-align: center;
+
+
+}
+h3{
+font-family: 'IBM Plex Serif', serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+/* Icon */
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  cursor: pointer;
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+#testimonials{
+  color:white;
+
+  text-align: center;
+  background-color: #ef8172;
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dog_img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presslogo{
+  width:15%;
+  margin:20px 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+
+/* CTA SECTION */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 3%;
+  color: white;
+}
+
+/* FOOTER SECTION */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.foot{
+  margin:2%;
+}
+.foot:hover{
+  cursor: pointer;
+  color: #ff4c68;
+}
